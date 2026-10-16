@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 
@@ -57,7 +57,7 @@ export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#11110f] text-[#f3f0e8]">
       <div className="bg-[#c9a875] px-4 py-2 text-center text-[10px] font-semibold uppercase tracking-[0.22em] text-[#171612] sm:text-xs">
-        Independent barbershop · Crafted with intention
+        Independent barbershop Â· Crafted with intention
       </div>
 
       <header className="relative z-20 border-b border-white/10">
@@ -80,7 +80,7 @@ export default function Home() {
             <a onClick={() => setMenuOpen(false)} className="text-white/65 transition hover:text-[#c9a875]" href="#services">Services</a>
             <a onClick={() => setMenuOpen(false)} className="text-white/65 transition hover:text-[#c9a875]" href="#story">Our story</a>
             <a onClick={() => setMenuOpen(false)} className="text-white/65 transition hover:text-[#c9a875]" href="#gallery">Gallery</a>
-            <a onClick={() => setMenuOpen(false)} href="#visit" className="w-fit border border-[#c9a875] px-5 py-3 text-[#c9a875] transition hover:bg-[#c9a875] hover:text-[#11110f]">Book a chair ↗</a>
+            <a onClick={() => setMenuOpen(false)} href="#visit" className="w-fit border border-[#c9a875] px-5 py-3 text-[#c9a875] transition hover:bg-[#c9a875] hover:text-[#11110f]">Book a chair â†—</a>
           </div>
         </nav>
       </header>
@@ -102,16 +102,16 @@ export default function Home() {
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <a href="#visit" className="group inline-flex items-center gap-5 bg-[#c9a875] px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-[#171612] transition hover:bg-[#e2c79c]">
-                Book your appointment <span className="transition-transform group-hover:translate-x-1">↗</span>
+                Book your appointment <span className="transition-transform group-hover:translate-x-1">â†—</span>
               </a>
               <a href="#services" className="inline-flex items-center border border-white/20 px-6 py-4 text-xs uppercase tracking-[0.15em] transition hover:border-[#c9a875] hover:text-[#c9a875]">
                 Explore services
               </a>
             </div>
             <div className="mt-12 flex flex-wrap gap-x-8 gap-y-4 border-t border-white/10 pt-6 text-[10px] uppercase tracking-[0.2em] text-white/40">
-              <span>✳ Detail driven</span>
-              <span>✳ Your style first</span>
-              <span>✳ No rush, just craft</span>
+              <span>âœ³ Detail driven</span>
+              <span>âœ³ Your style first</span>
+              <span>âœ³ No rush, just craft</span>
             </div>
           </div>
 
@@ -130,11 +130,11 @@ export default function Home() {
                 <p className="mt-1 text-sm font-semibold uppercase tracking-widest">Craft over shortcuts</p>
               </div>
               <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
-                <p className="text-[10px] uppercase tracking-[0.3em] text-[#e4c897]">Precision · Character · Craft</p>
+                <p className="text-[10px] uppercase tracking-[0.3em] text-[#e4c897]">Precision Â· Character Â· Craft</p>
                 <h2 className="mt-3 text-4xl font-black uppercase tracking-tight sm:text-5xl">The art of<br/><span className="font-light italic text-[#e4c897]">the everyday.</span></h2>
                 <div className="mt-5 flex items-center justify-between border-t border-white/25 pt-4 text-[9px] uppercase tracking-[0.2em] text-white/65">
                   <span>Sharp by nature.</span>
-                  <span>NL—01</span>
+                  <span>NLâ€”01</span>
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
                   </div>
                   <p className="shrink-0 text-xl font-light text-[#c9a875]">{service.price}</p>
                 </div>
-                <a href="#visit" className="mt-7 inline-flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-white/50 transition group-hover:text-[#c9a875]">Choose this service <span>↗</span></a>
+                <a href="#visit" className="mt-7 inline-flex items-center gap-3 text-[10px] uppercase tracking-[0.2em] text-white/50 transition group-hover:text-[#c9a875]">Choose this service <span>â†—</span></a>
               </article>
             ))}
           </div>
@@ -195,7 +195,7 @@ export default function Home() {
           <h2 className="text-4xl font-black uppercase leading-tight tracking-tight sm:text-5xl">A good cut<br/>changes your <span className="font-light italic text-[#c9a875]">whole day.</span></h2>
           <p className="mt-7 text-sm leading-7 text-white/55">Northline is a concept built around a simple idea: a barbershop should feel personal. No pressure, no fuss. We take the time to understand what you want and put care into every detail.</p>
           <p className="mt-4 text-sm leading-7 text-white/55">Come in for a clean-up or a complete change. Leave feeling more like yourself.</p>
-          <a href="#gallery" className="mt-8 inline-flex items-center gap-4 border-b border-[#c9a875] pb-3 text-xs uppercase tracking-[0.2em] text-[#c9a875] transition hover:gap-6">Explore the craft <span>→</span></a>
+          <a href="#gallery" className="mt-8 inline-flex items-center gap-4 border-b border-[#c9a875] pb-3 text-xs uppercase tracking-[0.2em] text-[#c9a875] transition hover:gap-6">Explore the craft <span>â†’</span></a>
         </div>
       </section>
 
@@ -211,15 +211,15 @@ export default function Home() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <figure className="reveal group relative aspect-[4/5] overflow-hidden bg-[#24231f]">
               <img src="/images/barber-hero.jpg" alt="Barber carefully cutting a client's hair" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy"/>
-              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-6 pt-16 text-xs uppercase tracking-[0.2em]">01 — Precision</figcaption>
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-6 pt-16 text-xs uppercase tracking-[0.2em]">01 â€” Precision</figcaption>
             </figure>
             <figure className="reveal group relative aspect-[4/5] overflow-hidden bg-[#24231f]">
               <img src="/images/barber-cut.jpg" alt="Barber giving a customer a detailed haircut" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy"/>
-              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-6 pt-16 text-xs uppercase tracking-[0.2em]">02 — The process</figcaption>
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-6 pt-16 text-xs uppercase tracking-[0.2em]">02 â€” The process</figcaption>
             </figure>
             <figure className="reveal group relative aspect-[4/5] overflow-hidden bg-[#24231f] sm:col-span-2 lg:col-span-1">
               <img src="/images/barber-studio.jpg" alt="Barber studio atmosphere" className="h-full w-full object-cover transition duration-700 group-hover:scale-105" loading="lazy"/>
-              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-6 pt-16 text-xs uppercase tracking-[0.2em]">03 — The atmosphere</figcaption>
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 to-transparent p-6 pt-16 text-xs uppercase tracking-[0.2em]">03 â€” The atmosphere</figcaption>
             </figure>
           </div>
           <p className="mt-5 text-xs text-white/35">Stock photography used for this fictional portfolio concept.</p>
@@ -241,15 +241,15 @@ export default function Home() {
           <div className="reveal bg-[#171612] p-6 text-[#f3f0e8] sm:p-9">
             {bookingSubmitted ? (
               <div className="flex min-h-[420px] flex-col items-start justify-center">
-                <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#c9a875]">Request preview · Complete</p>
+                <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#c9a875]">Request preview Â· Complete</p>
                 <h3 className="mt-5 text-3xl font-black uppercase">Looking sharp already.</h3>
                 <p className="mt-4 max-w-md text-sm leading-7 text-white/65">Thanks, {booking.name}. Your demo request is ready for {booking.service} on {booking.date} at {booking.time}. No real appointment has been created.</p>
                 <div className="mt-7 border border-white/15 p-5">
                   <p className="text-xs uppercase tracking-widest text-white/50">Selected service</p>
                   <p className="mt-2 text-lg font-bold">{selectedService?.name}</p>
-                  <p className="mt-1 text-sm text-[#c9a875]">{selectedService?.price} · {selectedService?.duration}</p>
+                  <p className="mt-1 text-sm text-[#c9a875]">{selectedService?.price} Â· {selectedService?.duration}</p>
                 </div>
-                <button type="button" onClick={() => { setBookingSubmitted(false); setBooking({ name: "", email: "", service: "Classic Haircut", date: "", time: "" }); }} className="mt-7 border border-[#c9a875] px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-[#c9a875] transition hover:bg-[#c9a875] hover:text-[#171612]">Make another demo request ↗</button>
+                <button type="button" onClick={() => { setBookingSubmitted(false); setBooking({ name: "", email: "", service: "Classic Haircut", date: "", time: "" }); }} className="mt-7 border border-[#c9a875] px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-[#c9a875] transition hover:bg-[#c9a875] hover:text-[#171612]">Make another demo request â†—</button>
               </div>
             ) : (
               <>
@@ -275,7 +275,7 @@ export default function Home() {
                   <div>
                     <label htmlFor="booking-service" className="mb-2 block text-[10px] font-bold uppercase tracking-[0.18em] text-white/60">Choose your service</label>
                     <select id="booking-service" name="service" value={booking.service} onChange={(event) => setBooking({ ...booking, service: event.target.value })} className="w-full border border-white/15 bg-[#24231f] px-4 py-3.5 text-sm text-white outline-none focus:border-[#c9a875]">
-                      {services.map((service) => <option key={service.name} value={service.name}>{service.name} — {service.price} · {service.duration}</option>)}
+                      {services.map((service) => <option key={service.name} value={service.name}>{service.name} â€” {service.price} Â· {service.duration}</option>)}
                     </select>
                   </div>
 
@@ -306,7 +306,7 @@ export default function Home() {
                       <p className="text-[10px] uppercase tracking-widest text-white/45">Illustrative price</p>
                       <p className="mt-1 text-2xl font-black text-[#c9a875]">{selectedService?.price}</p>
                     </div>
-                    <button type="submit" className="inline-flex items-center gap-4 bg-[#c9a875] px-5 py-4 text-xs font-bold uppercase tracking-[0.12em] text-[#171612] transition hover:bg-[#e2c79c] sm:px-7">Preview request <span>↗</span></button>
+                    <button type="submit" className="inline-flex items-center gap-4 bg-[#c9a875] px-5 py-4 text-xs font-bold uppercase tracking-[0.12em] text-[#171612] transition hover:bg-[#e2c79c] sm:px-7">Preview request <span>â†—</span></button>
                   </div>
                   <p className="text-[11px] leading-5 text-white/40">Portfolio demo only. Submitting displays a confirmation preview; it does not send your details or reserve a real appointment.</p>
                 </form>
@@ -319,7 +319,7 @@ export default function Home() {
       <footer className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-8 text-[10px] uppercase tracking-[0.18em] text-white/40 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
         <a href="#home" className="text-lg font-black tracking-[0.12em] text-[#f3f0e8]">NORTHLINE<span className="text-[#c9a875]">.</span></a>
         <p>Independent by nature. Precise by choice.</p>
-        <p>Concept website · © {new Date().getFullYear()} Northline Barber</p>
+        <p>Concept website Â· Â© 2026 Northline Barber</p>
       </footer>
 
       <style jsx global>{`
@@ -360,5 +360,6 @@ export default function Home() {
     </main>
   );
 }
+
 
 
