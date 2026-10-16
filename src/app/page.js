@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 
@@ -23,7 +23,11 @@ export default function Home() {
   const selectedService = services.find(
     (service) => service.name === booking.service
   );
-  const today = new Date().toLocaleDateString("en-CA");
+  const [today, setToday] = useState("");
+
+  useEffect(() => {
+    setToday(new Date().toLocaleDateString("en-CA"));
+  }, []);
 
   useEffect(() => {
     const elements = document.querySelectorAll(".reveal");
